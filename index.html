@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>COVID-19 # Network Case</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-loading-overlay/2.1.6/loadingoverlay.min.js"></script>
+    <script type="text/javascript" src="./vis-network.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div id="mynetwork"></div>
+    <div class="configure-wrap">
+        <div id="configure"></div>
+    </div>
+
+    <div id="input-wrap">
+        <div>
+            <input type="url" id="url-input" placeholder="URL json"> <button onclick="buttonShowClick()">Show</button>
+            <a href="https://visjs.github.io/vis-network/docs/network/" target="_blank"><button>?</button></a>
+        </div>
+        <br>
+        <div>
+            <div>
+                <label for="url-select">Source: </label>
+                <select onchange="showNetwork(event.target.value)" name="url-select" id="url-select">
+                    <option value="/sarawak.json">Sarawak</option>
+                    <option value="/network_graph.json">All Malaysia</option>
+                    <!-- <option value="/sg.json">Singapore</option> -->
+                </select>
+            </div>
+            <br>
+            <div>
+                <small><a href="http://bit.ly/3b1WYEr" target="_blank">Don't click me</a></small>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // var audio = new Audio('./sounds/ding.mp3');
+
+        function buttonShowClick(e) {
+            const inputEl = document.getElementById('url-input') || {}
+            inputEl.value = String(inputEl.value).trim()
+            inputEl.value && showNetwork(inputEl.value)
+        }
+
+        function showNetwork(url) {
+            console.time("init")
+            $("#mynetwork").LoadingOverlay("show", {
+                image: "./gif/hsicon1.gif",
+                imageAnimation: "",
+            });
+            NProgress.configure({ parent: '#mynetwork', showSpinner: false });
+            NProgress.start();
+
+            fetch(url)
+                .then((response) => {
+                    return response.json();
+                })
+                .then((data) => {
+                    console.log(data);
+                    const { nodes, edges } = data
+                    // create a network
+                    var container = document.getElementById('mynetwork');
+                    var data = { nodes, edges };
+                    var options = {
+                        configure: {
+                            enabled: false,
+                            container: document.getElementById('configure'),
+                            showButton: true
+                        },
+                        nodes: {
+                            hidden: true
+                        },
+                        edges: {
+                        },
+                        physics: {
+                            solver: 'forceAtlas2Based',
+                            timestep: 0.35,
+                            stabilization: {
+                                enabled: true,
+                                iterations: 1200,
+                                updateInterval: 25
+                            }
+                        },
+                        layout: {
+                            improvedLayout: false,
+                        },
+                        manipulation: !true,
+                        interaction: {
+                            dragNodes: true,
+                            dragView: true,
+                            hideEdgesOnDrag: false,
+                            hideEdgesOnZoom: false,
+                            hideNodesOnDrag: false,
+                            hover: false,
+                            hoverConnectedEdges: true,
+                            keyboard: {
+                                enabled: true,
+                                speed: { x: 10, y: 10, zoom: 0.02 },
+                                bindToWindow: true
+                            },
+                            multiselect: false,
+                            navigationButtons: true,
+                            selectable: true,
+                            selectConnectedEdges: true,
+                            tooltipDelay: 300,
+                            zoomView: true
+                        }
+                    };
+
+
+                    var network = new vis.Network(container, data, options);
+
+                    window.network = network;
+                    network.on("click", function (params) {
+                        params.event = "[original event]";
+                        console.log('click event, getNodeAt returns: ' + this.getNodeAt(params.pointer.DOM));
+                    });
+
+                    network.on("stabilizationProgress", function ({ iterations, total }) {
+                        const present = Math.round((iterations / total) * 100);
+                        NProgress.set(iterations / total)
+                    });
+
+                    /**
+                     * Trick 3 settimeout for get two circle on large edges, try to disable to find other solution. Thanks
+                     * */
+
+                    network.on("stabilizationIterationsDone", () => {
+                        network.setOptions({ edges: { physics: false } })
+                        setTimeout(() => {
+                            network.setOptions({ edges: { physics: true } })
+                            setTimeout(() => {
+                                network.setOptions({ nodes: { hidden: false } })
+                                $("#mynetwork").LoadingOverlay("hide")
+                                NProgress.done()
+                                setTimeout(() => {
+                                    network.fit({ animation: true })
+                                    console.timeEnd("init")
+                                    // audio.play();
+                                }, 300)
+                            }, 500)
+                        }, 700)
+
+                    })
+                })
+                .catch((err) => {
+                    console.error(err)
+                    $("#mynetwork").LoadingOverlay("hide")
+                    NProgress.done()
+                    new Noty({
+                        text: err.message || "Error, please try other URL",
+                        type: "error",
+                        timeout: 3000,
+                    }).show();
+                })
+        }
+
+        showNetwork('/sarawak.json')
+    </script>
+</body>
+
+</html>

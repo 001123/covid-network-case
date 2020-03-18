@@ -1,0 +1,846 @@
+{
+  "nodes": [
+    {
+      "id": "Case 34",
+      "label": "34",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 33",
+      "label": "33",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 32",
+      "label": "32",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 31",
+      "label": "31",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 30",
+      "label": "30",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 29",
+      "label": "29",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 28",
+      "label": "28",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 27",
+      "label": "27",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 26",
+      "label": "26",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 25",
+      "label": "25",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 24",
+      "label": "24",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 23",
+      "label": "23",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 22",
+      "label": "22",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 21",
+      "label": "21",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 20",
+      "label": "20",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#7f0000"
+    },
+    {
+      "id": "Case 19",
+      "label": "19",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#7f0000"
+    },
+    {
+      "id": "Case 18",
+      "label": "18",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#7f0000"
+    },
+    {
+      "id": "Case 17",
+      "label": "17",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#7f0000"
+    },
+    {
+      "id": "Case 16",
+      "label": "16",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#7f0000"
+    },
+    {
+      "id": "Case 15",
+      "label": "15",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#7f0000"
+    },
+    {
+      "id": "Case 14",
+      "label": "14",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#7f0000"
+    },
+    {
+      "id": "Case 13",
+      "label": "13",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#7f0000"
+    },
+    {
+      "id": "Case 12",
+      "label": "12",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#7f0000"
+    },
+    {
+      "id": "Case 11",
+      "label": "11",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#7f0000"
+    },
+    {
+      "id": "Case 10",
+      "label": "10",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#7f0000"
+    },
+    {
+      "id": "Case 9",
+      "label": "9",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 8",
+      "label": "8",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 7",
+      "label": "7",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 6",
+      "label": "6",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 5",
+      "label": "5",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 4",
+      "label": "4",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 3",
+      "label": "3",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 2",
+      "label": "2",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Case 1",
+      "label": "1",
+      "font": {
+        "size": 16,
+        "multi": "md",
+        "align": "center",
+        "color": "#FFFFFF"
+      },
+      "shape": "circle",
+      "color": "#f44336"
+    },
+    {
+      "id": "Cluster 1",
+      "label": "\u2018Ijtima Tabligh\u2019 - Seri Petaling",
+      "font": { "size": 16, "multi": "md", "align": "center" },
+      "shape": "circularImage",
+      "color": {
+        "border": "#FB7E81",
+        "background": "#FFFFFF",
+        "highlight": { "background": "#F2F2F2" }
+      },
+      "size": 70,
+      "borderWidth": 2,
+      "image": "/assets/images/icons/mosque.png"
+    },
+    {
+      "id": "Cluster 2",
+      "label": "Others / Sporadik",
+      "font": { "size": 16, "multi": "md", "align": "center" },
+      "shape": "circularImage",
+      "color": {
+        "border": "#FB7E81",
+        "background": "#FFFFFF",
+        "highlight": { "background": "#F2F2F2" }
+      },
+      "size": 70,
+      "borderWidth": 2,
+      "image": "/assets/images/icons/unknown.png"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Cluster 1",
+      "to": "Case 1",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 2",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Case 2",
+      "to": "Case 3",
+      "label": "Husband & Wife",
+      "font": { "align": "horizontal", "size": "8" },
+      "dashes": true,
+      "width": 2,
+      "arrows": { "to": null },
+      "color": "#f9a825"
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 4",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 5",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 6",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 7",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 8",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 9",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 10",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 11",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 12",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 13",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 14",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 15",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 16",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 17",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 2",
+      "to": "Case 18",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 2",
+      "to": "Case 19",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 2",
+      "to": "Case 20",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 21",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 22",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 23",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 24",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 25",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 26",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 27",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 28",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 29",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 30",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 30",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 1",
+      "to": "Case 31",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Cluster 2",
+      "to": "Case 32",
+      "label": null,
+      "font": { "align": "horizontal", "size": 8 },
+      "dashes": false,
+      "width": 2,
+      "arrows": {
+        "to": { "enabled": true, "type": "arrow", "scaleFactor": "1.0" }
+      },
+      "color": null
+    },
+    {
+      "from": "Case 19",
+      "to": "Case 34",
+      "label": "Son of case #19 in Sarawak",
+      "font": { "align": "horizontal", "size": "8" },
+      "dashes": true,
+      "width": 2,
+      "arrows": { "to": null },
+      "color": "grey"
+    }
+  ]
+}
